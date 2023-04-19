@@ -1,0 +1,75 @@
+.list a {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+/* identical to box height */
+color: #7D7D7D;
+text-decoration: none;
+}
+.list {
+    list-style-type:none;
+}
+.list:hover {
+    color:  #03A9F4;
+}
+.card {
+    text-decoration: none;
+}
+h3 {
+    font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height */
+
+
+color: #B4AD9E;
+
+}
+h2 {
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 40px;
+/* identical to box height */
+
+
+color: #626262;
+}
+.text {
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+
+color: #626262;
+}
+.text {
+    list-style-type: none;
+}
+.foto {
+    list-style-type: none;
+}
+button {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    
+    color: #626262;
+    width: 165px;
+    height: 60px;
+    background-color: #ffff;
+    cursor: pointer;
+}
+
+
+
