@@ -1,75 +1,115 @@
 .list a {
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
-/* identical to box height */
-color: #7D7D7D;
-text-decoration: none;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #7d7d7d;
+  text-decoration: none;
 }
 .list {
-    list-style-type:none;
+  list-style-type: none;
 }
-.list:hover {
-    color:  #03A9F4;
+.list a:hover {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #03a9f4;
 }
-.card {
-    text-decoration: none;
+.cards {
+  text-decoration: none;
 }
 h3 {
-    font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 300;
-font-size: 14px;
-line-height: 16px;
-/* identical to box height */
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
 
-
-color: #B4AD9E;
-
+  color: #b4ad9e;
 }
 h2 {
-    font-family: 'Playfair Display';
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 40px;
-/* identical to box height */
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  /* identical to box height */
 
-
-color: #626262;
+  color: #626262;
 }
 .text {
-    font-family: 'Playfair Display';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 19px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
 
-color: #626262;
+  color: #626262;
 }
 .text {
-    list-style-type: none;
+  list-style-type: none;
 }
 .foto {
-    list-style-type: none;
+  list-style-type: none;
 }
 button {
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
-    /* identical to box height */
-    
-    
-    color: #626262;
-    width: 165px;
-    height: 60px;
-    background-color: #ffff;
-    cursor: pointer;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #626262;
+  width: 165px;
+  height: 60px;
+  background-color: #ffff;
+  cursor: pointer;
+  margin: 0 auto;
+  display: block;
 }
-
-
-
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  width: 550px;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.lists {
+  display: flex;
+  justify-content: space-between;
+  width: 550px;
+  align-items: center;
+  margin: 16px 900px;
+}
+.fotos {
+  display: flex;
+  justify-content: space-between;
+  width: 906px;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.card {
+  list-style-type: none;
+  display: inline-block;
+  margin-bottom: 130px;
+  width: 420px;
+  height: 546px;
+}
+.flex-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.header {
+  padding: 70px;
+}
